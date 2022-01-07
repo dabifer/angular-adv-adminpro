@@ -36,7 +36,7 @@ export class LoginComponent implements OnInit {
 
   // Login Normal
   login(){
-    console.log(this.loginForm.value);
+    // console.log(this.loginForm.value);
 
     this.usuarioService.login(this.loginForm.value)
         .subscribe(resp=>{
